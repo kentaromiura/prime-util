@@ -6,7 +6,8 @@ lint:
 test: lint
 	@./node_modules/.bin/mocha --reporter spec \
 		test/types/* \
-		test/prime/*
+		test/prime/* \
+		test/util/*
 
 
 .PHONY: test

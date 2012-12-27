@@ -16,7 +16,7 @@
     "prime": "*"
   },
   "devDependencies": {
-    "mocha": "1.3",
+    "mocha": "1.7.4",
     "expect.js": "0.1",
     "jshint": "0.9"
   }
