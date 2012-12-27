@@ -5,7 +5,7 @@ var lucid = require("../../util/lucid")
 
 describe("lucid", function(){
 
-        it('Set allows you to bind to an event even after it has happened', function(){
+        it('has a set method which allows you to bind to an event even after it has happened', function(){
             var emitter = new lucid()
             emitter.set('ready')
 
@@ -37,9 +37,7 @@ describe("lucid", function(){
 
             //pipe all events from emitter C
             centralEmitter.pipe(emitterC)
-            
-           
-            
+        
             centralEmitter.on('foo', function(){
                 fooOnA = true 
             })
